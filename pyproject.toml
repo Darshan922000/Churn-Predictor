@@ -1,0 +1,23 @@
+[project]
+name = "classification"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "catboost>=1.2.8",
+    "fastapi>=0.115.12",
+    "matplotlib>=3.10.3",
+    "pandas>=2.2.3",
+    "scikit-learn>=1.6.1",
+    "seaborn>=0.13.2",
+    "shap>=0.47.2",
+    "statsmodels>=0.14.4",
+    "uvicorn>=0.34.2",
+    "xgboost>=3.0.0",
+]
+
+[dependency-groups]
+dev = [
+    "ipykernel>=6.29.5",
+]
