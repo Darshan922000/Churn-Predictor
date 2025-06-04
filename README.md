@@ -71,5 +71,14 @@ The model provides both predictive power and interpretability, allowing business
 - Understand the key factors contributing to churn
 - Make data-driven decisions to reduce customer churn
 
+## 🧪 Running Tests
+
+Install the development dependencies and run the test suite with `pytest`:
+
+```bash
+pip install -e .[dev]
+pytest
+```
+
 ---
 
